@@ -1,0 +1,39 @@
+networks:
+  default:
+    mainnet
+  ganache:
+    host: HTTP://127.0.0.1:7545
+    chainid: 5777
+  development:
+    host: http://127.0.0.1:8545
+  goerli:
+    host: https://goerli.infura.io/v3/${WEB3_INFURA_PROJECT_ID}
+    accounts:
+      - id: account1
+        cmd: brownie accounts new account1
+      - id: account2
+        cmd: brownie accounts new account2
+  sepolia:
+    host: https://sepolia.infura.io/v3/${WEB3_INFURA_PROJECT_ID}
+    chainid: 11155111
+  mainnet:
+    host: https://mainnet.infura.io/v3/${WEB3_INFURA_PROJECT_ID}
+
+wallets:
+  from_key_1: ${PRIVATE_KEY_1}
+  from_key_2: ${PRIVATE_KEY_2}
+  from_key_3: ${PRIVATE_KEY_3}
+  from_key_4: ${PRIVATE_KEY_4}
+  from_key_5: ${PRIVATE_KEY_5}
+  from_key_6: ${PRIVATE_KEY_6}
+  from_key_7: ${PRIVATE_KEY_7}
+  from_key_8: ${PRIVATE_KEY_8}
+  from_key_9: ${PRIVATE_KEY_9}
+  from_key_10: ${PRIVATE_KEY_10}
+  from_key_11: ${PRIVATE_KEY_11}
+  from_key_12: ${PRIVATE_KEY_12}
+  from_key_13: ${PRIVATE_KEY_13}
+  from_mnemonic_1: ${MNEMONIC_1}
+  from_mnemonic_2: ${MNEMONIC_2}
+
+dotenv: .env

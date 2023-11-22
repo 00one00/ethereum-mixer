@@ -1,0 +1,16 @@
+__pycache__
+.env
+.history
+.hypothesis/
+build/
+reports/
+keys_config.json
+node_modules/
+scripts/main.py
+nullifier.txt
+directory_structure.txt
+interfaces/
+tests/
+venv/
+package-lock.json
+package.json
