@@ -74,16 +74,20 @@ To deploy the Ethereum Mixer contract:
 
 ## Script Usage
 `deploy.py`: Deploys the EthereumMixer contract.
-+
+
+
 `deposit.py`: Enables ETH deposits into the mixer.
 + Usage: brownie run deposit.py --network [network]
-+ 
+
+
 `sign_withdraw.py`: Signs withdrawal transactions.
 + Usage: brownie run sign_withdraw.py --network [network]
-+ 
+
+
 `relay_withdraw.py`: Relays a signed withdrawal transaction.
 + Usage: brownie run relay_withdraw.py --network [network]
-+ 
+
+
 ### Relayer Setup
 `relayer.py`: A Flask server that handles transaction signing and relaying.
 Run in a separate terminal environment: `python relayer.py`.
