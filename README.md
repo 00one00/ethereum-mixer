@@ -57,7 +57,7 @@ WEB3_INFURA_PROJECT_ID=your_infura_project_id_here
 
 Installation
 1. Clone the repository:
-`git clone [repository URL]`
+`git clone https://github.com/00one00/ethereum-mixer.git`
 2. Install dependencies:
 ```
 npm install
@@ -74,15 +74,20 @@ To deploy the Ethereum Mixer contract:
 
 ## Script Usage
 `deploy.py`: Deploys the EthereumMixer contract.
++
 `deposit.py`: Enables ETH deposits into the mixer.
 + Usage: brownie run deposit.py --network [network]
++ 
 `sign_withdraw.py`: Signs withdrawal transactions.
 + Usage: brownie run sign_withdraw.py --network [network]
++ 
 `relay_withdraw.py`: Relays a signed withdrawal transaction.
 + Usage: brownie run relay_withdraw.py --network [network]
++ 
 ### Relayer Setup
 `relayer.py`: A Flask server that handles transaction signing and relaying.
 Run in a separate terminal environment: `python relayer.py`.
+
 ## How It Works
 The Ethereum Mixer enhances transaction privacy on the Ethereum blockchain through:
 
@@ -118,5 +123,6 @@ A: For issues, questions, or contributions, please create an issue on the GitHub
 
 Stay Connected
 X: @nonfungible_kid
++
 Donate Ethereum (Mainnet): 0xF3aB84bddFD1536d421DCA2f1eB7198C5cBB6990
 >>>>>>> 57d5511 (Initial commit)
