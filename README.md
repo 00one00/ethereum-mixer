@@ -126,6 +126,7 @@ Q: Where can I seek help if I encounter issues?
 A: For issues, questions, or contributions, please create an issue on the GitHub repository.
 
 Stay Connected
+
 X: @nonfungible_kid
 
 
