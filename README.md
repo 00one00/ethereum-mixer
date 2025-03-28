@@ -130,5 +130,5 @@ Stay Connected
 X: @nonfungible_kid
 
 
-Donate Ethereum (Mainnet): 0xF3aB84bddFD1536d421DCA2f1eB7198C5cBB6990
+Donate Ethereum (Mainnet): 0xe2025D0e3c10d29783a1b7D56b9f40C1eddD267a
 >>>>>>> 57d5511 (Initial commit)
